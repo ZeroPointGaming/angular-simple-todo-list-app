@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-color: lightblue;
+    color:black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    margin-top:0px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px rgba(59, 58, 58, 0.5);
+}
+
+#app .input {
+    margin-top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #db1141;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+}
+
+#app p {
+    position: relative;
+    background-color: #2e02cc;
+    width: 470px;
+    margin: 4px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.li_actions {
+    float: right;
+    cursor: pointer;
+}
